@@ -12,3 +12,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+video {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 10px;
+}
+
+.btn-icon {
+  margin-left: 10px;
+}

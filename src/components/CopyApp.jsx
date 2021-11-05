@@ -19,7 +19,7 @@ const CopyApp = () => {
 
     return (
         <div className="container">
-            <h2>Copy Input</h2>
+            <h2 className="my-4">Copy Input</h2>
             <input 
                 ref={inputRef}
                 type="text"
@@ -27,7 +27,7 @@ const CopyApp = () => {
                 placeholder="Type some text here"
                 value={textInput}
                 onChange={(e) => setTextInput(e.target.value)}/>
-            <button className="btn btn-primary" onClick={handleCopy}>Copy!</button>
+            <button className="btn btn-primary px-4" onClick={handleCopy}>Copy!</button>
             {isCopied && <h3 className="alert alert-success m-3">Copied to clipboard!</h3>}
         </div>
     )
